@@ -10,10 +10,6 @@ let quotesMeaningOfLiff = [
     "Huttoft (n.) : The fibrous algae which grows in the dark, moist environment of trouser turn-ups.",
 ];
 
-let quote1 = quotesMeaningOfLiff[Math.floor(Math.random() * quotesMeaningOfLiff.length)];
-quote1 = '\nMeaning of Liff:\n' + quote1;
-console.log(quote1);
-
 let quotesFortuneCookie = [
     "Today it's up to you to create the peacefulness you long for.",
     "A friend asks only for your time not your money.",
@@ -23,10 +19,6 @@ let quotesFortuneCookie = [
     "Change can hurt, but it leads a path to something better.",
     "A chance meeting opens new doors to success and friendship.",
 ];
-
-let quote2 = quotesFortuneCookie[Math.floor(Math.random() * quotesFortuneCookie.length)];
-quote2 = '\nFortune Cookie:\n' + quote2;
-console.log(quote2);
 
 let quotesInspirational = [
     "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
@@ -38,6 +30,10 @@ let quotesInspirational = [
     "No act of kindness, no matter how small, is ever wasted.",
 ]
 
+let quote1 = quotesMeaningOfLiff[Math.floor(Math.random() * quotesMeaningOfLiff.length)];
+quote1 = '\nMeaning of Liff:\n' + quote1;
+let quote2 = quotesFortuneCookie[Math.floor(Math.random() * quotesFortuneCookie.length)];
+quote2 = '\nFortune Cookie:\n' + quote2;
 let quote3 = quotesInspirational[Math.floor(Math.random() * quotesInspirational.length)];
 quote3 = '\nInspiration:\n' + quote3;
-console.log(quote3);
+console.log('\n' + quote1 + '\n' + quote2 + '\n' + quote3 + '\n');
